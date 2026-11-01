@@ -1,23 +1,21 @@
 # Dados
 
-**Arquivo:** `Heart_Attack.csv` (1.319 linhas e 9 colunas, sem valores nulos nem duplicados)
+Arquivo `Heart_Attack.csv`, com 1.319 linhas e 9 colunas (sem valores nulos nem duplicados).
 
-**Fonte:** Maghdid, S. S.; Rashid, T. A. (2022). *An Extensive Dataset for the Heart Disease Classification System*. Mendeley Data, V2. DOI: [10.17632/65gxgy2nmg.2](https://doi.org/10.17632/65gxgy2nmg.2)
+Fonte: Maghdid, S. S.; Rashid, T. A. (2022). An Extensive Dataset for the Heart Disease Classification System. Mendeley Data, V2. https://doi.org/10.17632/65gxgy2nmg.2
 
-**Licença:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). É permitido copiar e reutilizar os dados, desde que a fonte seja citada.
+Licença CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): pode copiar e reutilizar, desde que cite a fonte.
 
 ## Colunas
 
-| Coluna | Significado |
-|---|---|
-| `age` | Idade do paciente (anos) |
-| `gender` | Gênero (no notebook: 0 = feminino, 1 = masculino) |
-| `impluse` | Frequência cardíaca (o nome original da coluna tem essa grafia) |
-| `pressurehight` | Pressão arterial sistólica (a "alta") |
-| `pressurelow` | Pressão arterial diastólica (a "baixa") |
-| `glucose` | Glicose no sangue |
-| `kcm` | CK-MB, exame de sangue relacionado ao músculo do coração |
-| `troponin` | Troponina, exame de sangue relacionado ao músculo do coração |
-| `class` | Resultado: `negative` (sem ataque cardíaco) ou `positive` (com ataque cardíaco) |
+- `age`: idade do paciente
+- `gender`: gênero (no notebook, 0 = feminino e 1 = masculino)
+- `impluse`: frequência cardíaca (o nome original da coluna é escrito assim)
+- `pressurehight`: pressão arterial sistólica (a "alta")
+- `pressurelow`: pressão arterial diastólica (a "baixa")
+- `glucose`: glicose no sangue
+- `kcm`: CK-MB, exame de sangue ligado ao músculo do coração
+- `troponin`: troponina, outro exame de sangue ligado ao músculo do coração
+- `class`: resultado, `negative` (sem ataque cardíaco) ou `positive` (com ataque cardíaco)
 
-Distribuição da classe: 810 positivos (61,4%) e 509 negativos (38,6%).
+São 810 pacientes positivos (61,4%) e 509 negativos (38,6%).
